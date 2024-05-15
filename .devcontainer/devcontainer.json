@@ -1,0 +1,16 @@
+{
+    "name": "PHP Basic Project",
+    "dockerComposeFile": "compose.yml",
+    "service": "web",
+    "workspaceFolder": "/var/www/html",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "xdebug.php-debug"
+            ],
+            "settings": {
+                "editor.tabSize": 2
+            }
+        }
+    }
+}
